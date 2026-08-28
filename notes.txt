@@ -1,0 +1,42 @@
+Maven Installation Process:
+1. Install Maven
+>>> mvn --version
+
+2. Install Extention
+Spring Boot Extension Pack - By VMware
+
+3. Show and Run Command - Ctrl + Shift + P
+> Spring Initializer: Create Maven Project
+Specify Spring Boot Version
+> 4.1.0
+Specify Project Language
+> Java
+Input Group ID
+> <group_name>.example 
+Input Artifact ID
+> <artifact_name>
+Input Package Name
+> <group_name>.example.<artifact_name>
+Specify Packing Type
+> Jar
+Specify Java Version
+> 21
+Choose Dependencies
+> Spring Web Web
+- Build Web, including RESTful, application using MVC, Uses Apache Tomcat as the default
+
+14.08.2026
+src\main\resources\templates
+new file
+>>> index.html
+
+src\main\java\maven\example\maven_demo
+right click -> java\maven\example\maven_demo -> new java package
+Input Package Name >>> maven.example.maven_demo.controller
+
+src\main\java\maven\example\maven_demo\controller
+right click -> controller -> new java file -> Class...
+Input the Class Name >>> indexController
+
+>>> mvn spring-boot:run
+
